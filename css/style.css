@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/6.jpg) top center;
   background-size: cover;
   position: relative;
 }
@@ -497,7 +497,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #about {
   background: #fff;
-  padding: 80px 0;
+  padding: 90px 0;
 }
 
 #about .about-container .background {
@@ -603,9 +603,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box {
   padding: 50px 20px;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
   text-align: center;
-  border: 1px solid #e6e6e6;
+  /*border: 2px solid #e74c3c;*/
   height: 200px;
   position: relative;
   background: #fafafa;
@@ -666,6 +666,152 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
+/* Clients Section
+--------------------------------*/
+#clients {
+  background: #fff;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#clients .box {
+  padding: 50px 20px;
+  margin-bottom: 120px;
+  text-align: center;
+  /*border: 2px solid #e74c3c;*/
+  height: 200px;
+  position: relative;
+  background: #fafafa;
+}
+
+#clients .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #2dc997;
+}
+
+#clients .icon a {
+  display: inline-block;
+}
+
+#clients .icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+#clients .box:hover .icon {
+  background: #fff;
+  border: 2px solid #2dc997;
+}
+
+#clients .box:hover .icon i {
+  color: #2dc997;
+}
+
+#clients .box:hover .icon a {
+  color: #2dc997;
+}
+
+#clients .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#clients .title a {
+  color: #111;
+}
+
+#clients .description {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/*Jobs Section
+--------------------------------*/
+#jobs {
+  background: #fff;
+  background-size: cover;
+  padding: 50px 0 60px 0;
+}
+
+#jobs .box {
+  padding: 50px 20px;
+  margin-bottom: 120px;
+  text-align: center;
+  /*border: 2px solid #e74c3c;*/
+  height: 200px;
+  position: relative;
+  background: #fafafa;
+}
+
+#jobs .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #2dc997;
+}
+
+#jobs .icon a {
+  display: inline-block;
+}
+
+#jobs .icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+#jobs .box:hover .icon {
+  background: #fff;
+  border: 2px solid #2dc997;
+}
+
+#jobs .box:hover .icon i {
+  color: #2dc997;
+}
+
+#jobs .box:hover .icon a {
+  color: #2dc997;
+}
+
+#jobs .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#jobs .title a {
+  color: #111;
+}
+
+#jobs .description {
+  font-size: 14px;
+  line-height: 24px;
+}
+
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
@@ -716,7 +862,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #portfolio {
   background: #f7f7f7;
-  padding: 80px 0;
+  padding: 20px 0;
 }
 
 #portfolio #portfolio-wrapper {
@@ -807,7 +953,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #team {
   background: #fff;
-  padding: 80px 0 60px 0;
+  padding: 20px 0 60px 0;
 }
 
 #team .member {
