@@ -502,7 +502,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
+  background: url(https://dummyimage.com/640x360/fff/aaa.jpg) center top no-repeat;
   margin-bottom: 10px;
 }
 
@@ -954,6 +954,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team {
   background: #fff;
   padding: 20px 0 60px 0;
+  margin-top:40px;
 }
 
 #team .member {
